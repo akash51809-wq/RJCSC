@@ -1,0 +1,17 @@
+{
+  "name": "rjcsc-sso-login",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Manual CAPTCHA and OTP assisted Rajasthan SSO login automation",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "install-browser": "playwright install chromium"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "playwright": "^1.51.0"
+  }
+}
